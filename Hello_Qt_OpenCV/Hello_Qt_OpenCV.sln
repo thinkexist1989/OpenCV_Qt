@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello_Qt_OpenCV", "Hello_Qt_OpenCV\Hello_Qt_OpenCV.vcxproj", "{7DB0A09E-057A-3C4F-AD9F-10EA5A6F9CBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DB0A09E-057A-3C4F-AD9F-10EA5A6F9CBC}.Debug|x64.ActiveCfg = Debug|x64
+		{7DB0A09E-057A-3C4F-AD9F-10EA5A6F9CBC}.Debug|x64.Build.0 = Debug|x64
+		{7DB0A09E-057A-3C4F-AD9F-10EA5A6F9CBC}.Release|x64.ActiveCfg = Release|x64
+		{7DB0A09E-057A-3C4F-AD9F-10EA5A6F9CBC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {830385E4-5A83-444E-A52D-11F5EBB1D69E}
+	EndGlobalSection
+EndGlobal
