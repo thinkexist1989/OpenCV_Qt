@@ -1,7 +1,7 @@
-!build_pass:message(OpenCV Directory is $$(OPENCV))
-INCLUDEPATH += $$(OPENCV)/include
-
 win32:{
+    !build_pass:message(OpenCV Directory is $$(OPENCV))
+    INCLUDEPATH += $$(OPENCV)/include
+
     Debug:{
         LIBS += -l$$(OPENCV)/lib/opencv_world345d
     }

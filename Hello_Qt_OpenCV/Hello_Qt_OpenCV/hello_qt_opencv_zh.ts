@@ -60,32 +60,32 @@
         <translation>简体中文</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="26"/>
+        <location filename="mainwindow.cpp" line="28"/>
         <source>Open Input Image</source>
         <translation>打开输入图片</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="28"/>
+        <location filename="mainwindow.cpp" line="30"/>
         <source>Images (*.jpg *.png, *.bmp)</source>
         <translation>图片 (*.jpg *.png *.bmp)</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="57"/>
+        <location filename="mainwindow.cpp" line="59"/>
         <source>Select Output Image</source>
         <translation>选择输出图片</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="70"/>
+        <location filename="mainwindow.cpp" line="72"/>
         <source>Output Image</source>
         <translation>输出图片</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="77"/>
+        <location filename="mainwindow.cpp" line="79"/>
         <source>Exit</source>
         <translation>退出</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="78"/>
+        <location filename="mainwindow.cpp" line="80"/>
         <source>Are you sure you want to close this program?</source>
         <translation>确定退出程序吗？</translation>
     </message>

@@ -43,3 +43,6 @@ include(opencv.pri)
 
 RESOURCES += \
     resources.qrc
+
+TRANSLATIONS += hello_qt_opencv_zh.ts
+

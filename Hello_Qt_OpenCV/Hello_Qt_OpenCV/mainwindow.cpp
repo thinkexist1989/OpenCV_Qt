@@ -35,7 +35,8 @@ void MainWindow::on_inputPushButton_pressed()
 
 void MainWindow::loadSettings()
 {
-	QSettings settings("org", "Hello_Qt_OpenCV", this);
+//	QSettings settings("org", "Hello_Qt_OpenCV", this);
+    QSettings settings("settings.ini",QSettings::IniFormat,this);
 	ui->inputLineEdit->setText(settings.value("inputLineEdit", "").toString());
 	ui->outputLineEdit->setText(settings.value("outputLineEdit", "").toString());
 	ui->gaussianBlurRadioButton->setChecked(settings.value("gaussianBlurRadioButton", false).toBool());
@@ -45,7 +46,8 @@ void MainWindow::loadSettings()
 
 void MainWindow::saveSettings()
 {
-	QSettings settings("org", "Hello_Qt_OpenCV", this);
+    //QSettings settings("org", "Hello_Qt_OpenCV", this);
+    QSettings settings("settings.ini",QSettings::IniFormat,this);
 	settings.setValue("inputLineEdit", ui->inputLineEdit->text());
 	settings.setValue("outputLineEdit", ui->outputLineEdit->text());
 	settings.setValue("gaussianBlurRadioButton", ui->gaussianBlurRadioButton->isChecked());
